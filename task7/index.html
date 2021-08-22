@@ -40,14 +40,20 @@
         <div class="input"> <label for=" "> Subject</label>
             <br>
 
-            <input type="text" required placeholder="Enter subject" name="subject">
+            <input type="text" required placeholder="Enter subject" id="search" list="mysearch" name="subject ">
+            <datalist id="mysearch">
+                <option value="arabic"></option>
+                <option value="math"></option>
+                <option value="history"></option>
+
+                </datalist>
         </div>
 
         <hr>
         <div class="input"> <label for=" "> Number</label>
             <br>
 
-            <input type="number" required placeholder="Enter your number" name="number" value="76543" disabled>
+            <input type="number" required placeholder="Enter your number " name="number" value="76543" disabled>
         </div>
 
         <hr>
