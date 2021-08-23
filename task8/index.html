@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="a.html" method="POST">
+        <div class="input">
+            <label for="user"> User name</label>
+        </div>
+        <br>
+        <div>
+            <input id="user" type="text" required autofocus placeholder=" Enter user name" name="username">
+        </div>
+
+        <hr>
+        <div class="input"> <label for="mypass"> Password</label></div>
+        <br>
+        <div> <input id="mypass" type="password" required placeholder=" Enter password" name="password" min="5" maxlength="5">
+        </div>
+
+        <hr>
+
+        <div class="input"> <label for="email"> Email</label></div>
+        <br>
+
+        <div> <input id="email" type="email" required placeholder="Enter your email " name="email ">
+        </div>
+
+        <hr>
+        <div class="input"> <label for="phone"> Mobile</label></div>
+        <br>
+
+        <div> <input id="phone" type="tel" required placeholder="Enter your phone " name="mobile " readonly value="+9647701111111">
+        </div>
+
+        <hr>
+        <input id="mak" type="checkbox" name="arabic" value="arabic">
+
+        <label for="mak"> Arabic </label>
+
+        <input id="win" type="checkbox" name="english" value="english">
+
+        <label for="win"> English</label>
+
+        <input id="linux" type="checkbox" name="italy" value="italy" disabled>
+
+        <label for="linux"> Italy</label>
+
+        <hr>
+
+
+        <input id="makn" type="radio" name="os">
+
+        <label for="makn"> Os</label>
+
+        <input id="wind" type="radio" name="windows">
+
+        <label for="wind"> windows</label>
+
+        <hr>
+        <!-- # الفرق بين ال radio وال checkbox
+        radio: يستخدم لاختيار خيار واحد فقط
+
+        checkbox:يستخدم لاختيار اكثر من خيار  -->
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>
